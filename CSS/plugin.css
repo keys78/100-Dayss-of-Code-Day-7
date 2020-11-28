@@ -1,0 +1,258 @@
+body{
+  margin:0px;
+  padding: 0px;
+  /**
+  background:rgb(234, 244, 255);
+  **/
+}
+
+.header{
+  width:100%;
+  height:600px;
+  background-image: linear-gradient(to right,#000033,#000099 );
+  border-radius: 0px 0px 40% 0px;
+
+}
+.first-cover img{
+  width:45%;
+  position: absolute;
+  right:10px;
+  top:70px;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+  
+.first-cover img:hover{
+  transform: scale(1.1);
+}
+
+.navbar ul{
+  list-style-type:none;
+  overflow: hidden;
+  padding: 10px;
+  padding-left: 100px;
+  padding-top:30px;
+  padding-right: 120px;
+}
+
+.navbar li{
+  float: left;
+}
+
+.navbar a{
+  color:rgb(250, 250, 250);
+  background-color: none;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding:16px;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+  color: rgb(233, 151, 0);
+}
+
+
+.sidebar{
+  color:rgb(216, 205, 205);
+}
+
+.sidebar h1{
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.sidebar p{
+  padding-left: 100px;
+}
+
+.sidebar input[type="submit"]{
+  position: relative;
+  left:100px;
+  padding:20px;
+  width:15%;
+  outline: none;
+  color:white;
+  font-size:1em ;
+  background-color: rgb(233, 151, 0);
+  border:none;
+}
+
+.sidebar input[type="submit"]:hover{
+  overflow: hidden;
+  transition:transform .2s ease;
+  transform: scale(1.2);
+}
+
+.wrapper{
+  height: fit-content;
+  max-width:1200px;
+  margin:auto;
+  padding:10px;
+}
+
+.section-2{
+  overflow: hidden;
+  transition:transform .5s ease;
+  background-color: white;
+  border-radius:20px;
+  position: relative;
+  top:40px;
+  box-shadow:2px 2px 25px 4px rgba(0,0,102,0.29);
+}
+.cover-2 img{
+  padding-right:30px;
+  position: relative;
+  top:92px;
+}
+
+.text{
+  position: relative;;
+  left: 670px;
+  bottom:200px;
+  width:30%;
+  color:rgb(15, 8, 117);
+}
+
+.section-2:hover{
+  transform: scale(1.1);
+}
+
+
+/***************************************SECTION 3**************8****/
+
+
+.section-3{
+  height: 640px;
+  background-color: white;
+  border-radius:20px;
+  position: relative;
+  top:70px;
+  box-shadow:2px 2px 25px 4px rgba(0,0,102,0.29);
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+
+
+.number-1{
+  position: relative;
+  top:80px;
+  left: 40px;
+  text-align: center;
+  width:27%;
+  height:500px;
+  background-color: white;
+  position: relative;
+  box-shadow:2px 2px 25px 4px rgba(0,0,102,0.29);
+  border:none;
+  overflow: hidden;
+  transition:transform .5s ease;
+  
+}
+
+.number-2{
+  position: relative;
+  left:435px;
+  bottom:420px;
+  text-align: center;
+  width:27%;
+  height:500px;
+  background-color: white;
+  position: relative;
+  box-shadow:2px 2px 25px 4px rgba(0,0,102,0.29);
+  border:none;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+
+.number-3{
+  position: relative;
+  bottom:921px;
+  left: 835px;
+  text-align: center;
+  width:27%;
+  height:500px;
+  background-color: white;
+  position: relative;
+  box-shadow:2px 2px 25px 4px rgba(0,0,102,0.29);
+  border:none;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+.number-1 img{
+  width:40%;
+  height: 100;
+}
+
+.number-2 img{
+  width:35%;
+  height: 100;
+}
+
+.number-3 img{
+  width:35%;
+  height: 100;
+}
+
+.section-3 h1{
+  font-size: 5em;
+  background: -webkit-linear-gradient(#000033,#afaff0, #000);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.section-3 p{
+  font-family: script mt;
+  font-size: 1.5em;
+  color:#000066;
+}
+
+
+.number-1:hover{
+  transform: scale(1.1);
+}
+
+
+.number-2:hover{
+  transform: scale(1.1);
+}
+
+.number-3:hover{
+  transform: scale(1.1);
+}
+
+.footer{
+  border:none;
+  color:rgb(250, 250, 250);
+  height: 400px;
+  position: relative;
+  top:80px;
+  background-color:#000033;
+}
+
+.footer-content{
+  padding-left: 300px;
+  padding:30px;
+}
+
+.footer-content p{
+  color:rgb(250, 250, 250);
+}
+
+.footer-content-2{
+  position: absolute;
+  right: 5px;
+}
+
+.end{
+  color:rgb(161, 161, 161);
+  text-align: center;
+  position: relative;
+  top:80px;
+  height: 50px;
+  border-top:1px solid rgb(68, 64, 64);
+  background-image: linear-gradient(to right,#000033,#000099 );
+}
